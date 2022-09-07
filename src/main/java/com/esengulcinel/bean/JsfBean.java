@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 
+
 @Named(value = "cdiBean")
 @RequestScoped
 @Getter @Setter
