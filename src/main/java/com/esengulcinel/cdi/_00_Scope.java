@@ -14,10 +14,10 @@ import java.io.Serializable;
 //@RequestScoped // bir istek boyunca yaşar. cevabı verir sonra ölür. 1 istek boyunca
 //@SessionScoped //bir kullanıcı için yaşar ancak logout olduğu zaman ölür.
 
-@Dependent //bukelemon. bulunmuş olduğu yapı hangi scope ise ona uyum sağlıyor.
+//@Dependent //bukelemon. bulunmuş olduğu yapı hangi scope ise ona uyum sağlıyor.
             //çağırdığımız yere göre
 
-@ConversationScoped //belli istek boyunca yaşar.
+//@ConversationScoped //belli istek boyunca yaşar.
                      // Örn. bir ürünü sepete ekledikten sonra ödeme yaptıktan sonra ürünün orda durmasının bir anlamı yok.
                     //sonra ürün ölsün
 public class _00_Scope {
